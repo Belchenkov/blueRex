@@ -21,5 +21,84 @@ h4{
 	margin-bottom: 20px;
 }
 
+/* ==================== header ===================*/
+.main-header {
+	background: url('../img/main1.jpg') center/cover no-repeat fixed;
+	height: 100vh;
+	min-height: 600px;
+	position: relative;
+	text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+}
 
+.main-header .navbar-brand,
+.main-header ul li a {
+	color: #fff;
+	font-weight: 600;
+}
 
+.main-header .navbar-brand {
+	font-size: 41px;
+}
+
+.main-header ul li a {
+	font-size: 17px;
+}
+
+.main-header ul li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	transform: scale(0);
+	transition: all .3s;
+}
+
+.main-header ul li a:hover::after {
+	transform: scale(1);
+}
+
+.main-header-text {
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	max-width: 800px;
+	color: #fff;
+	padding: 20px;
+}
+
+.main-header-buttons {
+	padding-left: 20px;
+}
+
+.btn {
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.main-header-buttons .btn {
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 20px;
+	margin-top: 30px;
+	opacity: .8;
+	transition: all 1.2s;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, .9);
+}
+
+.main-header-buttons .btn:hover {
+	color: #fff;
+	opacity: 1;
+	transition: all 1.2s;
+}
+
+.btn-pink {
+	background: #693939;
+}
+
+.btn-violet {
+	background: #063263;
+}
