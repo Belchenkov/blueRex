@@ -107,7 +107,47 @@ h4{
 	background: #063263;
 }
 
+/* ================ .section-watch ================= */
+.section-watch {
+    background: url('../img/world_map.png') center/cover no-repeat;
+}
 
+.section-watch h3,
+.section-watch h4 {
+    color: #484848;
+}
+
+.section-watch .nav-pills .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #484848;
+    padding: 14px 30px;
+}
+
+.section-watch .nav-pills {
+    margin-bottom: 20px;
+}
+
+.section-watch .nav-pills .nav-item .nav-link.active {
+    background: #71092a;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .35);
+}
+
+.btn-shadow {
+    box-shadow: 0 10px 0 #71092a;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: all .5s;
+    color: #fff;
+}
+
+.btn-shadow:hover {
+    background:  #520820;
+    box-shadow: 0 5px 0 #520820;
+    color: #fff;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
