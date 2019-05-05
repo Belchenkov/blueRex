@@ -1,0 +1,210 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	min-width: 320px;
+	color: #1d1d1d;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+section{
+	padding: 100px 0;
+}
+h3{
+	font-style: italic;
+	font-size: 42px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+h4{
+	font-weight: 600;
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+
+/* ==================== header ===================*/
+.main-header {
+	background: url('../img/main1.jpg') center/cover no-repeat fixed;
+	height: 100vh;
+	min-height: 600px;
+	position: relative;
+	text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+}
+.main-header .navbar-toggler {
+	color: #fff;
+	font-size: 1.6rem;
+}
+
+.main-header .navbar-brand,
+.main-header ul li a {
+	color: #fff;
+	font-weight: 600;
+}
+
+.main-header .navbar-brand {
+	font-size: 41px;
+}
+
+.main-header ul li a {
+	font-size: 17px;
+}
+
+.main-header ul li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	transform: scale(0);
+	transition: all .3s;
+}
+
+.main-header ul li a:hover::after {
+	transform: scale(1);
+}
+
+.main-header-text {
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	max-width: 800px;
+	color: #fff;
+	padding: 20px;
+}
+
+.main-header-buttons {
+	padding-left: 20px;
+}
+
+.btn {
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.main-header-buttons .btn {
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 20px;
+	margin-top: 30px;
+	opacity: .8;
+	transition: all 1.2s;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, .9);
+}
+
+.main-header-buttons .btn:hover {
+	color: #fff;
+	opacity: 1;
+	transition: all 1.2s;
+}
+
+.btn-pink {
+	background: #693939;
+}
+
+.btn-violet {
+	background: #063263;
+}
+
+/* ================ .section-watch ================= */
+.section-watch {
+    background: url('../img/world_map.png') center/cover no-repeat;
+}
+
+.section-watch h3,
+.section-watch h4 {
+    color: #484848;
+}
+
+.section-watch .nav-pills .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #484848;
+    padding: 14px 30px;
+}
+
+.section-watch .nav-pills {
+    margin-bottom: 20px;
+}
+
+.section-watch .nav-pills .nav-item .nav-link.active {
+    background: #71092a;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .35);
+}
+
+.btn-shadow {
+    box-shadow: 0 10px 0 #71092a;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: all .5s;
+    color: #fff;
+}
+
+.btn-shadow:hover {
+    background:  #520820;
+    box-shadow: 0 5px 0 #520820;
+    color: #fff;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main-header-text{
+		background-color: rgba(0,0,0,.3);
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.navbar-nav{
+		background: linear-gradient(45deg, #59746a 0%, #7e7e88 100%);
+		position: relative;
+		z-index: 1;
+		padding: 0 15px;
+		border-radius: 4px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.main-header-text{
+		left: 0;
+		margin: 0 20px;
+		max-width: 100%;
+	}
+	h3, h4{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.main-header-text{
+		top: 90px;
+	}
+	.main-header-buttons .btn{
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.main-header-buttons .btn:last-child{
+		margin-top: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 380px) {
+	.main-header .navbar-brand{
+		font-size: 30px;
+	}
+}
