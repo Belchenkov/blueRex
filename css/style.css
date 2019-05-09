@@ -183,6 +183,12 @@ h4{
 	overflow: hidden;
 }
 
+/* ================== section-lets ==================== */
+.section-lets {
+    background: url("../img/letsgrow.jpg") no-repeat center/cover fixed;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
