@@ -117,7 +117,7 @@ h4{
     color: #484848;
 }
 
-.section-watch .nav-pills .nav-link {
+.nav-pills .nav-link {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -125,11 +125,11 @@ h4{
     padding: 14px 30px;
 }
 
-.section-watch .nav-pills {
+.nav-pills {
     margin-bottom: 20px;
 }
 
-.section-watch .nav-pills .nav-item .nav-link.active {
+.nav-pills .nav-item .nav-link.active {
     background: #71092a;
     color: #fff;
     box-shadow: 0 4px 16px rgba(0, 0, 0, .35);
