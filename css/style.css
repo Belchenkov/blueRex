@@ -234,6 +234,41 @@ h4{
 	background: url("../img/play.png") center no-repeat;
 }
 
+/* ================== section-reviews ==================== */
+.section-reviews {
+	background: url("../img/reviews_bg.jpg") no-repeat center/cover;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+
+.section-reviews .carousel-caption {
+	top: 5%;
+	bottom: auto;
+	text-align: left;
+}
+
+.section-reviews .blockquote {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 22px;
+	position: relative;
+	padding-left: 40px;
+	margin-top: 70px;
+}
+
+.section-reviews .blockquote::before {
+	content: '\201C';
+	float: left;
+	font-size: 150px;
+	font-weight: 500;
+	font-style: italic;
+	color: #71092a;
+	position: absolute;
+	top: -80px;
+	left: -33px;
+}
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
