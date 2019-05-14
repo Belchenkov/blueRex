@@ -13,12 +13,36 @@
           crossorigin="anonymous"
     >
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        /* Spinner */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 9999;
+            background: #fefefe;
+        }
+    </style>
     <link rel="stylesheet" href="css/baguetteBox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Blue Rex</title>
 </head>
 <body>
 
+<!-- Preloader -->
+<div class="preloader d-flex justify-content-center align-items-center">
+    <div
+        class="spinner-border text-danger"
+        role="status"
+        style="width: 10rem; height: 10rem;"
+    >
+        <span class="sr-only">Loading ...</span>
+    </div>
+</div>
+
+<!-- Scroll Up Button -->
 <button class="scrollToTop">
     <i class="fas fa-angle-up"></i>
 </button>
