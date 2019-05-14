@@ -434,7 +434,7 @@ h4{
 }
 
 @media only screen and (max-width : 991px) {
-	.navbar-nav{
+	.main-header .navbar-nav{
 		background: linear-gradient(45deg, #59746a 0%, #7e7e88 100%);
 		position: relative;
 		z-index: 1;
