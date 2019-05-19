@@ -13,11 +13,40 @@
           crossorigin="anonymous"
     >
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        /* Spinner */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 9999;
+            background: #fefefe;
+        }
+    </style>
     <link rel="stylesheet" href="css/baguetteBox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Blue Rex</title>
 </head>
 <body>
+
+<!-- Preloader -->
+<div class="preloader d-flex justify-content-center align-items-center">
+    <div
+        class="spinner-border text-danger"
+        role="status"
+        style="width: 10rem; height: 10rem;"
+    >
+        <span class="sr-only">Loading ...</span>
+    </div>
+</div>
+
+<!-- Scroll Up Button -->
+<button class="scrollToTop">
+    <i class="fas fa-angle-up"></i>
+</button>
+
 <header class="main-header">
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
@@ -37,8 +66,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#1">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
                 <li class="nav-item"><a class="nav-link" href="#2">Product</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
@@ -452,7 +481,7 @@
                             </div>
                         </div>
                         <!-- /.col-sm-7 -->
-                        <div class="col-sm-5">
+                        <div class="col-sm-5 d-none d-sm-block">
                             <img src="img/client.png" alt="">
                         </div>
                         <!-- /.col-sm-5 -->
@@ -474,7 +503,7 @@
                             </div>
                         </div>
                         <!-- /.col-sm-7 -->
-                        <div class="col-sm-5">
+                        <div class="col-sm-5 d-none d-sm-block">
                             <img src="img/client.png" alt="">
                         </div>
                         <!-- /.col-sm-5 -->
@@ -496,7 +525,7 @@
                             </div>
                         </div>
                         <!-- /.col-sm-7 -->
-                        <div class="col-sm-5">
+                        <div class="col-sm-5 d-none d-sm-block">
                             <img src="img/client.png" alt="">
                         </div>
                         <!-- /.col-sm-5 -->
@@ -515,6 +544,127 @@
     </div>
 </section>
 <!-- ./section-reviews -->
+
+<!-- section-form -->
+<section class="section-form text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Need Help?</h4>
+                <h5>Don't Forget to Contact With Us</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi harum illum ipsa laboriosam
+                    maiores mollitia reiciendis repellendus repudiandae sequi vitae?
+                </p>
+                <form class="text-left">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" placeholder="Name" />
+                        </div>
+                        <div class="col-md-5">
+                            <input type="email" class="form-control" placeholder="Email" />
+                        </div>
+                        <div class="col-md-2">
+                            <button
+                                type="submit"
+                                class="btn btn-pink btn-shadow"
+                            >Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ./section-form -->
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Approach</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Approach</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Approach</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Approach</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 footer-images">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="img/footer_img1.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/footer_img1.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/footer_img1.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/footer_img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ./footer -->
+
+<!-- copyright -->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <span class="nav-link">&copy; 2022 Theme by psdfreebies.com</span>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Privacy</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Terms of Use</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.copyright -->
+
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
