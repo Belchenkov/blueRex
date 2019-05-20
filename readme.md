@@ -2,4 +2,4 @@
 
 ### Landing Page on Bootstrap 4
 
-Demo: https://jovial-pare-aa8d7b.netlify.com/
+Demo: http://193.187.174.213/projects/blueRex/
